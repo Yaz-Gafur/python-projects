@@ -53,12 +53,8 @@ if your_choice == 0 and computer_choice == 2:
   print("You win!")
 elif your_choice == 0 and computer_choice == 1:
   print("You losse!")
-elif your_choice == 0 and computer_choice == 0:
-  print("Draw!")
 elif your_choice == 1 and computer_choice == 0:
   print("You win!")
-elif your_choice == 1 and computer_choice == 1:
-  print("Draw!")
 elif your_choice == 1 and computer_choice == 2:
   print("You losse!")
 elif your_choice == 2 and computer_choice == 0:
@@ -66,6 +62,7 @@ elif your_choice == 2 and computer_choice == 0:
 elif your_choice == 2 and computer_choice == 1:
   print("You win!") 
 else:
-  print("Draw!")
+    print("Draw!")
+
 
 
