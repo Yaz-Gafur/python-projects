@@ -1,6 +1,5 @@
 # python-projects
 
-Here's a documentation for the given Caesar cipher encryption code:
 
 ---
 
