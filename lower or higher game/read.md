@@ -68,5 +68,3 @@ Compare B: Charlie, an athlete, from Canada.
 Who has more followers? Type 'A' or 'B': b
 You lose! Final score: 1
 
-"""
-
