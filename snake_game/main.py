@@ -8,6 +8,7 @@ screen = Screen()
 screen.setup(width=600, height=600)
 screen.bgcolor("black")
 screen.title("Snake Game")
+screen.tracer(0)
 
 snake = Snake()
 food = Food()
@@ -22,7 +23,7 @@ screen.onkey(snake.right, "Right")
 game_is_on = True
 while game_is_on:
     screen.update()
-    time.sleep(0.05)
+    time.sleep(0.1)
     snake.move()
 
     #detect collision with food
@@ -41,4 +42,6 @@ while game_is_on:
         if snake.head.distance(segment) < 10:
             scoreboard.reset()
             snake.reset()
+
+
 screen.exitonclick()
