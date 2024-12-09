@@ -33,5 +33,3 @@ while len(guessed_states) < 50:
         t.write(state_data.state.item())
 
 
-datalar = filter(lambda x: x not in guessed_states, all_states)
-print(datalar)
